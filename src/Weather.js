@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Loader from 'react-loader-spinner';
+import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function Weather(props) {
     function handleResponse(response) {

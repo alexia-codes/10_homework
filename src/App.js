@@ -9,13 +9,16 @@ function App() {
         <
         header className = "App-header" >
         <
-        h1 >
-        Hello from React! <
-        /h1>  <
+        /
+        header > <
+        section className = "App-section" >
+        <
         Weather city = "Tokyo" / >
         <
-        /
-        header > ; <
+        /section> <
+        footer className = "App-footer" >
+        <
+        /footer> <
         /
         div >
     );
